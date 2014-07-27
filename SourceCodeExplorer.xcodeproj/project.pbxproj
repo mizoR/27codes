@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1325940D198473D300313033 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325940C198473D300313033 /* MainViewController.swift */; };
+		1325940F1984747A00313033 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1325940E1984747A00313033 /* SearchViewController.swift */; };
 		13AF96B51983A181001A2011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AF96B41983A181001A2011 /* AppDelegate.swift */; };
-		13AF96B71983A181001A2011 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AF96B61983A181001A2011 /* ViewController.swift */; };
 		13AF96BA1983A181001A2011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13AF96B81983A181001A2011 /* Main.storyboard */; };
 		13AF96BC1983A181001A2011 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13AF96BB1983A181001A2011 /* Images.xcassets */; };
 		13AF96C81983A181001A2011 /* SourceCodeExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AF96C71983A181001A2011 /* SourceCodeExplorerTests.swift */; };
@@ -25,10 +26,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1325940C198473D300313033 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1325940E1984747A00313033 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		13AF96AF1983A181001A2011 /* SourceCodeExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SourceCodeExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AF96B31983A181001A2011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13AF96B41983A181001A2011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13AF96B61983A181001A2011 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13AF96B91983A181001A2011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13AF96BB1983A181001A2011 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13AF96C11983A181001A2011 /* SourceCodeExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SourceCodeExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,8 +77,9 @@
 		13AF96B11983A181001A2011 /* SourceCodeExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				1325940E1984747A00313033 /* SearchViewController.swift */,
+				1325940C198473D300313033 /* MainViewController.swift */,
 				13AF96B41983A181001A2011 /* AppDelegate.swift */,
-				13AF96B61983A181001A2011 /* ViewController.swift */,
 				13AF96B81983A181001A2011 /* Main.storyboard */,
 				13AF96BB1983A181001A2011 /* Images.xcassets */,
 				13AF96B21983A181001A2011 /* Supporting Files */,
@@ -208,7 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AF96B71983A181001A2011 /* ViewController.swift in Sources */,
+				1325940D198473D300313033 /* MainViewController.swift in Sources */,
+				1325940F1984747A00313033 /* SearchViewController.swift in Sources */,
 				13AF96B51983A181001A2011 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +399,7 @@
 				13AF96CD1983A181001A2011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13AF96CE1983A181001A2011 /* Build configuration list for PBXNativeTarget "SourceCodeExplorerTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				13AF96D01983A181001A2011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

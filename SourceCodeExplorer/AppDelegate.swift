@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  SourceCodeExplorer
-//
-//  Created by 0237 on 2014/07/26.
-//  Copyright (c) 2014年 0237. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
