@@ -18,7 +18,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="ejP-Ty-otV">
-                        <barButtonItem key="rightBarButtonItem" title="Search" id="iSy-vr-NcS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="iSy-vr-NcS">
                             <connections>
                                 <segue destination="e3T-zQ-Fzj" kind="show" id="hZ2-6d-fqQ"/>
                             </connections>
